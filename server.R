@@ -1,3 +1,5 @@
+full_data <- read.csv('full_data.csv')
+
 
 server <- function(input, output, session) {
   output$trumpmap <- renderLeaflet({
